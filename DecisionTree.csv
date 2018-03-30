@@ -1,0 +1,16 @@
+ID,Age,Work,House,Loan,Label
+1,young,no,no,medium,no
+2,young,no,no,good,no
+1,young,yes,no,good,yes
+1,young,yes,yes,medium,yes
+1,young,no,no,medium,no
+1,middle-aged,no,no,medium,no
+1,middle-aged,no,no,good,no
+1,middle-aged,yes,yes,good,yes
+1,middle-aged,no,yes,excellent,yes
+1,middle-aged,no,yes,excellent,yes
+1,old,no,yes,excellent,yes
+1,old,no,yes,good,yes
+1,old,yes,no,good,yes
+1,old,yes,no,excellent,yes
+1,old,no,no,medium,no
