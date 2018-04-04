@@ -32,6 +32,6 @@ class DecisionTreeNode(TreeNode):
         nodes = [self]
         while(nodes != []):
             if nodes[0].child != []:
-                print('选择特征：%d'%(nodes[0].data[1]))
+                print('选择特征：%s'%(str(nodes[0].data[1])))
                 nodes += nodes[0].child
             nodes.remove(nodes[0])
