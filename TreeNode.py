@@ -35,3 +35,8 @@ class DecisionTreeNode(TreeNode):
                 print('选择特征：%s'%(str(nodes[0].data[1])))
                 nodes += nodes[0].child
             nodes.remove(nodes[0])
+
+class RegressionTreeNode(TreeNode):
+    def __init__(self):
+        TreeNode.__init__(self)
+        
