@@ -56,4 +56,4 @@ class RegressionTreeNode(TreeNode):
                 return self.child[1].predict(feature)
             else:
                 return self.child[0].predict(feature)
-        return self.label
+        return self.data[0]
